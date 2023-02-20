@@ -1,0 +1,138 @@
+/* root */
+:root{
+    --one-color: #058283;
+    --two-color: #606d75;
+    --three-color: #e2e3e7;
+    --four-color: #ebecef;
+    --five-color: #00a6a6;
+    --six-color: #d9f2f2;
+    --seven-color: #0d1b2a;
+}
+
+
+/* reset */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font: inherit;
+}
+
+body {
+	min-height: 100vh;
+}
+
+img,
+svg,
+picture,
+video {
+	max-width: 100%;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+/* Utils */
+section{
+    border: 3px dashed purple
+}
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+
+    /* debug */
+    border: 2px dashed blue
+}
+
+.dbg{
+    border: 2px dashed green;
+    height: 200px;
+}
+
+.height{
+    height: 700px;
+}
+
+
+/**********
+HEADER 
+***********/
+header{
+    background-color: var(--four-color);
+}
+
+.h-top{
+    background-color: var(--seven-color);
+    height: 50px;
+}
+
+
+.h-bottom{
+    height: 50px;
+
+    /* debug */
+    border: 1px dashed black;
+}
+
+.jumbo{
+    height: 80vh;
+    background-image: url('./img/bg-parallax.png');
+    background-size: 3000px;
+    background-position: center;
+
+    /* debug */
+    border: 2px dashed red;
+}
+
+/**********
+MAIN 
+***********/
+
+
+.services,
+.projects{
+    padding-top: 60px;
+    height: 80vh;
+}
+
+.bg-dark{
+    background-color: var(--seven-color);
+}
+
+.bg-img{
+    background-image: url('./img/about-4.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.results{
+    background-color: var(--seven-color);
+    height: 80vh;
+}
+
+.touch{
+    height: 80vh;
+}
+
+/**********
+FOOTER 
+***********/
+
+.nexgen{
+    background-color: var(--seven-color);
+    height: 50vh;
+}
+
+.f-bottom{
+    background-color: black;
+    height: 50px;
+}
+
