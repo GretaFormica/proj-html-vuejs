@@ -72,14 +72,20 @@ header{
 .h-top{
     background-color: var(--seven-color);
     height: 50px;
+    color: white;
 }
 
 
 .h-bottom{
-    height: 50px;
+    height: 70px;
 
     /* debug */
     border: 1px dashed black;
+}
+
+
+.logo{
+    width: 100px;
 }
 
 .jumbo{

@@ -12,12 +12,12 @@ const app = Vue.createApp({
             
             links: [
 
-                "home",
-                "services",
-                "about",
-                "projects",
-                "result",
-                "get in touch"
+                "HOME",
+                "SERVICES",
+                "ABOUT",
+                "PROJECTS",
+                "RESULT",
+                "GET IN TOUCH"
 
             ],
 
