@@ -39,6 +39,11 @@ a{
 	color: inherit;
 }
 
+ul{
+    list-style: none;
+    padding: 0;
+}
+
 /* Utils */
 section{
     border: 3px dashed purple
@@ -135,6 +140,15 @@ FOOTER
 .nexgen{
     background-color: var(--seven-color);
     height: 50vh;
+    color: white;
+}
+
+.nexgen-card{
+    background-color: var(--two-color);
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+    color: white;
 }
 
 .f-bottom{

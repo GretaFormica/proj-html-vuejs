@@ -21,7 +21,7 @@ const app = Vue.createApp({
 
             ],
 
-            about: [
+            abouts: [
                 "the company",
                 "institutional",
                 "social & events",
