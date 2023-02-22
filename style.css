@@ -172,6 +172,18 @@ MAIN
     background-position: center;
 }
 
+.col-projects{
+    height: 300px;
+}
+.card-bg{
+    height: 100%;
+    background-image: url('./img/project-1.jpg');
+    background-size: cover;
+    border-radius: 5%;
+    color: white;
+    line-height: 450px;
+}
+
 .results{
     background-color: var(--seven-color);
     height: 80vh;
