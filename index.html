@@ -87,7 +87,9 @@
                         
                             <li class="nav-item"
                                 v-for="(link, index) in links">
-                                <a class="nav-link" href="#">
+                                <a class="nav-link" href="#"
+                                    :class="(index == active) ? 'btn btn-primary' : '' "
+						            @click="buttonActive(index)">
                                     {{link}}
                                 </a>
                             </li>

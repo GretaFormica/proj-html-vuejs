@@ -28,12 +28,17 @@ const app = Vue.createApp({
                 "innovation",
                 "environment",
                 "tecnology",
-            ]
+            ],
+
+            active: 5
             
         }
     },
 
     methods: {
+        buttonActive(index) {
+            this.active = index;
+        }
 
     }
 });

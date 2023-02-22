@@ -218,6 +218,7 @@ FOOTER
 /* buttons */
 .btn-primary{
     background-color: var(--one-color);
+    color: white;
 }
 
 .btn-outline-primary{
@@ -227,6 +228,7 @@ FOOTER
 
 .btn-primary:hover{
     background-color: var(--five-color);
+    color: white;
 }
 
 .btn-outline-primary:hover{
