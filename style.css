@@ -113,7 +113,7 @@ header{
 .marker{
     color: var(--one-color);
     background-color: #d5e7e8;
-    border-radius: 10%;
+    border-radius: 10px;
 }
 
 /**********
@@ -124,9 +124,6 @@ MAIN
 .services,
 .projects{
     padding-top: 60px;
-}
-
-.services{
     background-color: #eef4ed;
 }
 
@@ -185,8 +182,14 @@ MAIN
 }
 
 .results{
-    background-color: var(--seven-color);
-    height: 80vh;
+    background-image: url('./img/bg-7.jpg');
+    background-size: cover;
+    color: white;
+    height: 70vh;
+}
+
+.color-number{
+    color: var(--one-color);
 }
 
 .touch{
