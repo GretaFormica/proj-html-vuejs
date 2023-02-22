@@ -49,16 +49,10 @@ ul{
 }
 
 /* Utils */
-section{
-    border: 3px dashed purple
-}
 
 .container {
 	max-width: 900px;
 	margin: 0 auto;
-
-    /* debug */
-    border: 2px dashed blue
 }
 
 .dbg{
@@ -86,9 +80,6 @@ header{
 
 .h-bottom{
     height: 70px;
-
-    /* debug */
-    border: 1px dashed black;
 }
 
 
@@ -101,9 +92,6 @@ header{
     background-image: url('./img/bg-parallax.png');
     background-size: 3000px;
     background-position: center;
-
-    /* debug */
-    border: 2px dashed red;
 }
 
 .jumbo-title{
@@ -194,7 +182,7 @@ MAIN
 
 .logos{
     background-color: var(--seven-color);
-    height: fit-content;
+    height: 10vh;
 }
 
 .logos-img{
