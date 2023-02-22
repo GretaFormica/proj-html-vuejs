@@ -56,11 +56,7 @@ ul{
 }
 
 .dbg{
-    border: 2px dashed green;
-}
-
-.height{
-    height: 700px;
+    border: 2px dashed transparent;
 }
 
 
@@ -182,7 +178,7 @@ MAIN
 
 .logos{
     background-color: var(--seven-color);
-    height: 10vh;
+    height: 20vh;
 }
 
 .logos-img{
@@ -217,3 +213,22 @@ FOOTER
     height: 50px;
 }
 
+
+
+/* buttons */
+.btn-primary{
+    background-color: var(--one-color);
+}
+
+.btn-outline-primary{
+    color: var(--one-color);
+    border-color: var(--one-color);
+}
+
+.btn-primary:hover{
+    background-color: var(--five-color);
+}
+
+.btn-outline-primary:hover{
+    background-color: var(--five-color);
+}
