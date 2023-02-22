@@ -9,6 +9,10 @@
     --seven-color: #0d1b2a;
 }
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 
 /* reset */
 *,
@@ -71,7 +75,7 @@ section{
 HEADER 
 ***********/
 header{
-    background-color: var(--four-color);
+    background-color: #f9f9f9;
 }
 
 .h-top{
@@ -101,6 +105,16 @@ header{
 
     /* debug */
     border: 2px dashed red;
+}
+
+.main-title{
+    font-size: 60px;
+}
+
+.team{
+    color: var(--one-color);
+    background-color: #d5e7e8;
+    border-radius: 10%;
 }
 
 /**********
