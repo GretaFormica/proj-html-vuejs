@@ -153,6 +153,17 @@ MAIN
 
 .bg-dark{
     background-color: var(--seven-color);
+    color: white;
+}
+
+.div-company{
+    width: 60%;
+    padding: 100px 0;
+    padding-right: 20px;
+}
+
+.small-small{
+    font-size: 10px;
 }
 
 .bg-img{
